@@ -5,7 +5,7 @@ peso = float(input('Digite seu peso (em kg): '))
 imc = peso / (altura ** 2)
 
 print(f'Olá, {nome}. Vamos calcular seu IMC?')
-print(f'Seu IMC é: {imc:.2f}')
+print(f'Seu IMC é: {imc}')
 
 if imc < 18.4:
     print('Categoria: Subpeso')
